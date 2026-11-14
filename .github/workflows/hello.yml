@@ -1,0 +1,14 @@
+name: Learning GitHub Actions
+
+on:
+  push:
+
+jobs:
+  say-hello:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Say Hello
+        run: echo "Hello Amol! GitHub Action is running."
